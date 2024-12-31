@@ -30,9 +30,9 @@ def search_in_file(file_path, emailtosearch):
 try:
     allowed_extensions = [".sql", ".txt", ".csv"]
     emailtosearch = input('Enter email to search: (No check for validity of email) ').strip()
-    path = input('Enter file or directory name to search in (default: Cit0day Leak): ').strip()
+    path = input('Enter file or directory name to search in (default: ./): ').strip()
     if path == '':
-        path = 'Cit0day cleaned.txt'
+        path = '.'
     
     ClearConsole()
     sys.stdout.flush()

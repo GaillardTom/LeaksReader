@@ -35,3 +35,11 @@ This project allows you to search for a specific string (ex: email) within files
 ```sh
 Enter email to search: (No check for validity of email) example@example.com
 Enter file or directory name to search in (default: ./): ./data
+```
+
+## TODO
+
+- Accept Multiple strings 
+- Instead of input pass arguments to the script? 
+- Quick Timer ? 
+- Clean up the console cleaning process
